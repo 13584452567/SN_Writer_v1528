@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3046e62f-470f-49f2-8e41-15d13f30a654}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Common_SRC">
+      <UniqueIdentifier>{d7ea0b31-a171-4c3c-8474-f916a74d18aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exec_SRC">
+      <UniqueIdentifier>{795c33a3-9867-4a3c-adab-8690b2080f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MtkLib_SRC">
+      <UniqueIdentifier>{36e9712a-f354-44a8-b477-34ae27a09248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MtkLib_SRC\ATCmd_SRC">
+      <UniqueIdentifier>{285c257b-2f59-4ed1-8c12-012af32ce076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MtkLib_SRC\DebugTrace_SRC">
+      <UniqueIdentifier>{f6095377-be64-4ce8-b9b4-4e436812021d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MtkLib_SRC\Security_SRC">
+      <UniqueIdentifier>{c534dc9b-44c2-4f43-92b9-0aa8ed29f906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Form_SRC">
+      <UniqueIdentifier>{9278133a-063d-4579-a9b8-853ee0a7a702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Form_SRC\FileSel_SRC">
+      <UniqueIdentifier>{5ce8eff4-cea4-4a65-a867-c010faba715b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Form_SRC\Identify_SRC">
+      <UniqueIdentifier>{b5bca632-18e4-4a70-9d6a-b287ae96b05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Form_SRC\ScanData_SRC">
+      <UniqueIdentifier>{66997621-f1cd-477f-a90d-2e5e4e035cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Form_SRC\SystemConfig_SRC">
+      <UniqueIdentifier>{01c616e4-fdb1-446e-b204-102bf183a70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Form_SRC\About_SRC">
+      <UniqueIdentifier>{818fb38d-ba88-42a1-bd7d-7088167451a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Form_SRC\AutoGen_SRC">
+      <UniqueIdentifier>{a9650a49-0c19-435d-8d60-b9badad2b69d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Extra_SRC">
+      <UniqueIdentifier>{aae80e15-f4db-409a-b17d-1d2c91c8664c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Extra_SRC\BtnST_SRC">
+      <UniqueIdentifier>{d50caabd-db25-4134-a225-b0c32180eeb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{376b627e-95c6-4af1-a335-d0579f2c2a68}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Common_HDR">
+      <UniqueIdentifier>{80cf715f-16a6-423f-b611-1a469ed7c226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exec_HDR">
+      <UniqueIdentifier>{cc1c4b6a-d3aa-4c90-a0eb-eb232e6f084c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MtkLib_HDR">
+      <UniqueIdentifier>{f72eec97-fe89-4f51-8fef-a36d3c2dcf0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MtkLib_HDR\Brom_HDR">
+      <UniqueIdentifier>{a8ff614c-30a8-436e-a2fc-eca2342dea36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MtkLib_HDR\Meta_HDR">
+      <UniqueIdentifier>{a7116ea6-f2e3-4014-9c63-f95bb2cf2185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MtkLib_HDR\ATCmd_HDR">
+      <UniqueIdentifier>{c1210ec7-ba56-435c-b05a-6cae60f0d73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MtkLib_HDR\DebugTrace_HDR">
+      <UniqueIdentifier>{9c5c2ee1-0049-4097-9d21-9ccd178e9400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MtkLib_HDR\Security_HDR">
+      <UniqueIdentifier>{9add7995-1317-4662-b819-c7c73ba5f6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MtkLib_HDR\SNFstream_HDR">
+      <UniqueIdentifier>{f3130d97-3b5d-4d2b-9f89-f24c62428375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MtkLib_HDR\USBSwitchTool_HDR">
+      <UniqueIdentifier>{d15146cf-0339-4283-a5d1-1ea1aee780a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Form_HDR">
+      <UniqueIdentifier>{66c7bced-7533-48aa-a974-398f60c63d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Form_HDR\FileSel_HDR">
+      <UniqueIdentifier>{d5b34f32-273d-4b30-97d8-9fc42083cf1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Form_HDR\Identify_HDR">
+      <UniqueIdentifier>{b3952bd2-6a93-4770-b51c-346f81ed7401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Form_HDR\ScanData_HDR">
+      <UniqueIdentifier>{b9e1f92e-03d6-4ac8-9be3-2d91bedd0719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Form_HDR\SystemConfig_HDR">
+      <UniqueIdentifier>{eb482b86-1d54-45d8-9d27-b8a46b386f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Form_HDR\About_HDR">
+      <UniqueIdentifier>{4cfb62f7-4b74-48ab-a853-64d03465cccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Form_HDR\AutoGen_HDR">
+      <UniqueIdentifier>{932298f6-7c50-4ca6-a9e2-c4486b84c1aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extra_HDR">
+      <UniqueIdentifier>{f3653144-bff4-4151-a76e-12df7c03e34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Extra_HDR\BtnST_HDR">
+      <UniqueIdentifier>{b4bbe7b4-b0d9-470f-8db4-e3c926b35211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{fe8398ce-12b2-4523-b8b7-e05ce0b2cf2e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\Common.cpp">
+      <Filter>Source Files\Common_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Execute\FPexc.cpp">
+      <Filter>Source Files\Exec_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Execute\SNbase.cpp">
+      <Filter>Source Files\Exec_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Execute\SPexc.cpp">
+      <Filter>Source Files\Exec_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="MtkLib\AT_cmd\src\AtProcess.cpp">
+      <Filter>Source Files\MtkLib_SRC\ATCmd_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="MtkLib\AT_cmd\src\rs232Module.cpp">
+      <Filter>Source Files\MtkLib_SRC\ATCmd_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="MtkLib\DebugTrace\src\xboot_debug.cpp">
+      <Filter>Source Files\MtkLib_SRC\DebugTrace_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="MtkLib\Security\src\AUTH.cpp">
+      <Filter>Source Files\MtkLib_SRC\Security_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="MtkLib\Security\src\SCERT.cpp">
+      <Filter>Source Files\MtkLib_SRC\Security_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="MtkLib\Security\src\SLA.cpp">
+      <Filter>Source Files\MtkLib_SRC\Security_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Form\FileSel\fileseldlg.cpp">
+      <Filter>Source Files\Form_SRC\FileSel_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Form\Identify\ChgPasswdDlg.cpp">
+      <Filter>Source Files\Form_SRC\Identify_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Form\Identify\VerifyPasswdDlg.cpp">
+      <Filter>Source Files\Form_SRC\Identify_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Form\ScanData\ScanData.cpp">
+      <Filter>Source Files\Form_SRC\ScanData_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Form\SystemConfig\SystemConfig.cpp">
+      <Filter>Source Files\Form_SRC\SystemConfig_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Form\About\AboutSNDlg.cpp">
+      <Filter>Source Files\Form_SRC\About_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Form\AutoGen\autogendlg.cpp">
+      <Filter>Source Files\Form_SRC\AutoGen_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Extra\CBtnST\BtnST.cpp">
+      <Filter>Source Files\Extra_SRC\BtnST_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Extra\CBtnST\CeXDib.cpp">
+      <Filter>Source Files\Extra_SRC\BtnST_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Extra\CBtnST\ShadeButtonST.cpp">
+      <Filter>Source Files\Extra_SRC\BtnST_SRC</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SN Writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SN WriterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SN Writer.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Common.h">
+      <Filter>Header Files\Common_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Execute\FPexc.h">
+      <Filter>Header Files\Exec_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Execute\SNbase.h">
+      <Filter>Header Files\Exec_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Execute\SPexc.h">
+      <Filter>Header Files\Exec_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\brom.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\com_enum.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\DOWNLOAD.H">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\external_memory_setting.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\flashtool.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\flashtool_api.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\flashtool_handle.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\mtk_mcu.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\mtk_resource.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\mtk_status.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\rom_setting.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\sp_brom.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Brom\inc\xboot.h">
+      <Filter>Header Files\MtkLib_HDR\Brom_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Meta\inc\HdcpEncryption.h">
+      <Filter>Header Files\MtkLib_HDR\Meta_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Meta\inc\meta.h">
+      <Filter>Header Files\MtkLib_HDR\Meta_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Meta\inc\SP_META_Wrapper.h">
+      <Filter>Header Files\MtkLib_HDR\Meta_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Meta\inc\spmeta.h">
+      <Filter>Header Files\MtkLib_HDR\Meta_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Meta\inc\wm_meta_cct.h">
+      <Filter>Header Files\MtkLib_HDR\Meta_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Meta\inc\wm_meta_cct_6238.h">
+      <Filter>Header Files\MtkLib_HDR\Meta_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\AT_cmd\inc\AtProcess.h">
+      <Filter>Header Files\MtkLib_HDR\ATCmd_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\AT_cmd\inc\rs232Module.h">
+      <Filter>Header Files\MtkLib_HDR\ATCmd_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\DebugTrace\inc\Mdebug.h">
+      <Filter>Header Files\MtkLib_HDR\DebugTrace_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\DebugTrace\inc\xboot_debug.h">
+      <Filter>Header Files\MtkLib_HDR\DebugTrace_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Security\inc\AUTH.h">
+      <Filter>Header Files\MtkLib_HDR\Security_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Security\inc\des.h">
+      <Filter>Header Files\MtkLib_HDR\Security_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Security\inc\SCERT.h">
+      <Filter>Header Files\MtkLib_HDR\Security_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Security\inc\SLA.h">
+      <Filter>Header Files\MtkLib_HDR\Security_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\Security\inc\SLA_Challenge.h">
+      <Filter>Header Files\MtkLib_HDR\Security_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\SNFstream\inc\AutoGen.h">
+      <Filter>Header Files\MtkLib_HDR\SNFstream_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\SNFstream\inc\SNFstream.h">
+      <Filter>Header Files\MtkLib_HDR\SNFstream_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="MtkLib\USBSwitchTool\inc\USBSwitchDLLibrary.h">
+      <Filter>Header Files\MtkLib_HDR\USBSwitchTool_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Form\FileSel\fileseldlg.h">
+      <Filter>Header Files\Form_HDR\FileSel_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Form\Identify\ChgPasswdDlg.h">
+      <Filter>Header Files\Form_HDR\Identify_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Form\Identify\VerifyPasswdDlg.h">
+      <Filter>Header Files\Form_HDR\Identify_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Form\ScanData\ScanData.h">
+      <Filter>Header Files\Form_HDR\ScanData_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Form\SystemConfig\SystemConfig.h">
+      <Filter>Header Files\Form_HDR\SystemConfig_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Form\About\AboutSNDlg.h">
+      <Filter>Header Files\Form_HDR\About_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Form\AutoGen\autogendlg.h">
+      <Filter>Header Files\Form_HDR\AutoGen_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\CBtnST\BtnST.h">
+      <Filter>Header Files\Extra_HDR\BtnST_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\CBtnST\CeXDib.h">
+      <Filter>Header Files\Extra_HDR\BtnST_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="Extra\CBtnST\ShadeButtonST.h">
+      <Filter>Header Files\Extra_HDR\BtnST_HDR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\C2K_SN_WRITER\META_VC_Source\META_DLL_exe_v8.1510.00\C2kAgent_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\C2K_SN_WRITER\META_VC_Source\META_DLL_exe_v8.1510.00\C2kAgent_api_datatype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\C2K_SN_WRITER\META_VC_Source\META_DLL_exe_v8.1510.00\meta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SN Writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SN WriterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\FAIL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PASS.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SN Writer.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\temperature.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\SN Writer.rc2">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
